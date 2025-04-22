@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9bc1020bc5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1 class="main">Weather API</h1>
+    <div class="findcontainer">
+        <input type="text" class="type" placeholder="กรอกชื่อเมือง">
+        <button class="button">Search</button>
+    </div>
+    <h3>ชื่อจังหวัดที่มีสองคำ โปรดเว้นวรรคระหว่างคำ เช่น chiang mai , surat thani</h3>
+    <div class="container">
+        <h1 class="province">Rayong</h1>
+        <h1 class="country">TH</h1>
+        <div class="apicontainer">
+            <div class="temp">
+                <h1 class="temptext">21 °C</h1>
+                <h1 class="tempinfo">min 20 °C max 24 °C</h1>
+            </div>
+            <div class="info">
+                <h1 class="info1">Clear</h1>
+                <p></p>
+                <h1 class="info2">Humiduty:77</h1>
+                <p></p>
+                <h1 class="info3">Wind:3.1</h1>
+            </div>
+        </div>
+    </div>
+    <script src="/app.js"></script>
+</body>
