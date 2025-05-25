@@ -1,4 +1,4 @@
-const key = 'f65dd5dbca64eead86e87f1dec1160d3'
+const key = ''
 let city = ''
 const country = 'th'
 let info;
